@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cf1e1e;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hero {
+    background-image: url('hero-image.jpg'); /* Add your hero image here */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span {
+    margin-right: 20px;
+    transition: font-size 0.2s ease; /* Adiciona efeito de transição */
+}
+
+nav span:hover {
+    font-size: 1.1em; /* Aumenta o tamanho do texto quando hover */
+}
+nav a {
+    text-decoration: none; /* Remove a linha de baixo */
+    color: inherit; /* Herda a cor do pai */
+}
+
+nav a:hover {
+    text-decoration: none; /* Remove a linha de baixo no hover */
+    color: inherit; /* Herda a cor do pai no hover */
+}
+nav img{
+    width: 60px;
+}
+#hero img{
+    width: 100px;
+}
